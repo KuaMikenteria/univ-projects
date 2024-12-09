@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "style.css">
+    <title>Kritikomento - Movies</title>
+    <style>
+        body {
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .movie-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .movie-card {
+            background: #1a1a1a;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .movie-card:hover {
+            transform: translateY(-5px);
+        }
+        .movie-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+        .movie-info {
+            padding: 15px;
+        }
+        .movie-info h3 {
+            margin-top: 0;
+        }
+        .rating {
+            color: #ff4136;
+            font-weight: bold;
+        }
+        footer {
+            background: #1a1a1a;
+            color: #e0e0e0;
+            text-align: center;
+            padding: 5px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="categories.html">Categories</a></li>
+                    <li><a href="send-review.html">Send Review</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <h1>Movie Reviews</h1>
+            <div class="movie-grid">
+                <div class="movie-card">
+                    <img src="img/maynila.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                        <h2>Maynila: Sa Kuko ng Liwanag</h2>
+                        <h3> Lino Brocka </h3>
+                        <p>Based on the novel of the 50's, the follows Julio Madiaga, a young man who searches for his lost girlfriend in the
+                            corrupt and brutal underworld of Manila. This landmark film explores themes of poverty, exploitation, 
+                            and social injustice. 
+                            <br> A must mandatory watch one of the internationally praised, critically acclaimed
+                        coming from the the great Filipino filmmaker</p>
+                        <p class="rating">Rating: 5/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/kisapmata.jpeg" alt="Movie 2">
+                    <div class="movie-info">
+                        <h2>Kisapmata</h2>
+                        <h3> Mike de Leon </h3>
+                        <p>Based on the real life case reported by the great National Artist Nick Joacquin, 
+                            the film narrates about a controlling father who becomes obsessively 
+                            fixated on his daughter after intense family conflicts. <br> 
+                            Such controversies and changes away from the real events,
+                            the film explores themes of control, paranoia, and the destructive 
+                            effects of authority and repression within a family, which metaphorically reflects
+                         the political societies during the dictatorial regimes of the 70's.
+                        Coming from as cinematographer of the great Lino Brocka, this landmark film became the relevant
+                , cautionary tale. A must watch.</p>
+                        <p class="rating">Rating: 4/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/buybust.jpg" alt="Movie 3">
+                    <div class="movie-info">
+                        <h2>Buybust</h2>
+                        <h3> Erik Matti </h3>
+                        <p>BuyBust (2018) is an action-thriller about PDEA units (anti-drug agency) 
+                            trapped in a Manila slum during a botched drug raid, 
+                            fighting for survival against ruthless criminals. <br>
+                            Such inconsistent camera work, over-the-top action-packed performance,
+                            and one of the unrealistically most killed extras, most death tolls, one of the highest body counts in Philippine cinema in just 
+                            one location, it highlights themes of 
+                            corruption and the brutal realities of the drug war. A critique of the terrible
+                             anti-drug war campaign.
+                        </p>
+                        <p class="rating">Rating: 3.9/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/hello love again.jpg" alt="Movie 1">
+                    <div class="movie-info">
+                        <h2> Hello, Love, Again</h2>
+                        <h3> Cathy Garcia Sampana </h3>
+                        <p>Hello, Love, Again (2024), directed by Cathy Garcia-Molina, is the sequel to <i>Hello, Love, Goodbye</i>. 
+                            It follows Joy (Kathryn Bernardo) as she heals from a breakup 
+                            and finds new love with Ethan (Alden Richards). 
+                            The film explores themes of healing, second chances, 
+                            and the complexities of love and forgiveness. 
+                        <br>
+                    Another big grossing profit films coming from the two biggest rivaled entertainment industries.
+                    </p>
+                        <p class="rating">Rating: 4/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/sus.jpg" alt="Movie 2">
+                    <div class="movie-info">
+                        <h2>Ang mga Kaibigan ni Mama Susan</h2>
+                        <h3> Chito Rono </h3>
+                        <p>*Ang Mga Kaibigan ni Mama Susan* (2022) is a Filipino horror film. 
+                            Based on the novel by Bob Ong, the story follows a young man named Galo who 
+                            uncovers unsettling truths about his grandmother’s mysterious friends and 
+                            their dark secrets. The film blends suspense and supernatural elements 
+                            as it explores themes of family, fear, and the unknown.
+                        <br> 
+                        Corporate with big horror director, Chito Rono, with a very big dramatic actor, Joshua
+                         Garcia, the film missed the opportunity to execute, failed to convert the
+                         novel to film, full of misinterpretation and not very impactful unlike the beloved 
+                         <i>ABNKKBSNPla Ako</i>. Not a terrible one, but a weak one.
+                        </p>
+                        <p class="rating">Rating: 3/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/lolo and the kid.jpg" alt="Movie 3">
+                    <div class="movie-info">
+                        <h2>Lolo and the Kid</h2>
+                        <h3> Benedict Micque </h3>
+                        <p>Lolo and Kid (2022) is a Filipino drama film that tells the heartwarming 
+                            story of a young boy and his grandfather, who develop a deep bond despite 
+                            their generational differences. As they navigate life's challenges together, 
+                            the film explores themes of family, love, and the importance of intergenerational 
+                            relationships.</p>
+                        <p class="rating">Rating: 4.8/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/lumayo(film).jpg" alt="Movie 1">
+                    <div class="movie-info">
+                        <h2> Lumayo ka Nga Sa Akin</h2>
+                        <h3> Mark Meily, Andoy Ranay and Chris Martinez </h3>
+                        <p>The earlier missed oportunity film before <i>Susan</i>, Lumayo Ka Nga Sa Akin* (2022) is a Filipino romantic comedy 
+                            about a man who, after a series of failed relationships, meets a woman who seems 
+                            perfect but turns out to be more challenging than he anticipated. 
+                            The film, despite it explores themes of love, heartache, and self-discovery in a humorous yet 
+                            heartfelt way, it shows misinterpreted translation that doesn't faithfully
+                        reflect the 60s to 90s cliches, the memorable B movie production value, and over-the-top performance
+                    coming from our beloved characters from our nostalgia</p>
+                            <br> 
+                        <p class="rating">Rating: 3/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/himala.jpeg" alt="Movie 2">
+                    <div class="movie-info">
+                        <h2> Himala</h2>
+                        <h3> Ishmael Bernal </h3>
+                        <p>Himala (1982), directed by Ishmael Bernal, stars Nora Aunor, a young woman who 
+                            claims to have witnessed a miracle, causing a religious frenzy in her village.
+                             As people flock to her, Nora grapples with the pressure of faith, expectation, and exploitation. <br> 
+                            The film explores belief, sacrifice, and human nature, and is 
+                            considered a classic of Philippine cinema.</p>
+                        <p class="rating">Rating: 4/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/white lady.jpg" alt="Movie 3">
+                    <div class="movie-info">
+                        <h2>White Lady</h2>
+                        <h3> Jeff Tan </h3>
+                        <p>White Lady (2006), directed by Jeff Tan, is a Filipino horror film about Mia, 
+                            a woman who moves into a new house and is haunted by a vengeful White Lady spirit. 
+                            As the haunting intensifies, Mia uncovers the ghost's tragic past, revealing 
+                            themes of revenge and guilt. 
+                            The film blends Filipino folklore with suspense, exploring the emotional 
+                            consequences of past actions.
+                        <br> As underrated as heck, it was the staple horror film that scares 
+                        when we were kids.</p>
+                        <p class="rating">Rating: 4/5</p>
+                    </div>
+                </div>
+                <div class="movie-card">
+                    <img src="img/bloody crayon.jpg" alt="Movie 3">
+                    <div class="movie-info">
+                        <h2>Bloody Crayons</h2>
+                        <h3>Topel Lee,Quark Henares</h3>
+                        <p>A seemingly tight-knit group of college friends goes to an island to shoot a horror short film.
+                           But their world turns upside down when one of them gets killed after playing the Bloody Crayons Game.</p>
+                        <p class="rating">Rating: 4.8/5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kritikomento. All rights reserved.</p>
+    </footer>
+</body>
+</html>

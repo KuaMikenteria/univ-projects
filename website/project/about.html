@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "style.css">
+    <title>Kritikomento - About</title>
+    <style>
+        .about-content {
+            background: #1a1a1a;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+    
+        .about-content p {
+            color: white;
+            margin-bottom: 15px;
+        }
+    
+        .team-member {
+            background: #242424;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border-style: double;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        img {
+            width: 100%;
+            height: auto;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+            border-style: solid white gray;
+            border-width: 1rem;
+            margin-bottom: 15px;
+        }
+    
+        .team-member .movie-info {
+            text-align: center;
+            color: white;
+        }
+    
+        h2, h3, p {
+            margin: 0 0 10px;
+            color: white;
+        }
+    
+        .team-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+    
+        footer {
+            background: #1a1a1a;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    
+        header nav ul {
+            list-style: none;
+            padding: 0;
+        }
+    
+        header nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+    
+        header nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+    </style>
+    
+    
+</head>
+<body>
+    <header>
+        <header>
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li class="current"><a href="about.html">About</a></li>
+                        <li><a href="categories.html">Categories</a></li>
+                        <li><a href="send-review.html">Send Review</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <h1>About Kritikomento</h1>
+            <div class="about-content">
+                <p>Kritikomento emerged from the mainstreams in the 21st century, 
+                    born from the collective enthusiasts of a group of artists, 
+                    writers, and film critcs and reviewers. In a world increasingly sanitized 
+                    and filtered, we sought to create a space that embraces the cliche, 
+                    the tropes, and the predictable scenes... and also corporate from relatable,
+                politically aware, socially vigilant stories based on the events</p>
+                    <hr>
+                <p>Our purpose is to peel back the layers of artifice in cinema,
+                     literature, and art, describe the common yet hard-to-read-and watch
+                      of human creativity and imaginations. We believe that true art 
+                      doesn't shy away from the darkness - it illuminates it.</p>
+                <h2>Our Team (BSIT 3-1)</h2>
+                <div class="team-members">
+                    <div class="team-member">
+                        <img src="img/enteria.png" alt="Kim Ruzzel Enteria">
+                        <div class="movie-info">
+                            <h2>Kim Ruzzel Enteria</h2>
+                            <h3>  </h3>
+                            <p>   </p>                       
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="img/conda.png" alt="Janna Conda">
+                        <div class="movie-info">
+                            <h2>Janna Conda</h2>
+                            <h3>  </h3>
+                            <p>   </p>    
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="img/dayto.png" alt="Nadine Dayto">
+                        <div class="movie-info">
+                            <h2>Nadine Dayto</h2>
+                            <h3>  </h3>
+                            <p>   </p> 
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="img/gepulle.png" alt="Angylyn Gepulle">
+                        <div class="movie-info">
+                            <h2>Angylyn Gepulle</h2>
+                            <h3>  </h3>
+                            <p>   </p>    
+                        </div>
+                    </div>
+                    <div class="team-member">
+                        <img src="img/tamon.png" alt="Airene Mae Tamon">
+                        <div class="movie-info">
+                            <h2>Airene Mae Tamon</h2>
+                            <h3>  </h3>
+                            <p>   </p> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <p>&copy; 2024 Kritikomento. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "style.css">
+    <title>Kritikomento - Send Review</title>
+    <style>
+
+        form {
+            background: #1a1a1a;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        form input[type="text"],
+        form input[type="email"],
+        form select,
+        form textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #333;
+            border-radius: 4px;
+            background: #242424;
+            color: #e0e0e0;
+        }
+        form textarea {
+            height: 200px;
+        }
+        form button {
+            background: #ff4136;
+            color: #fff;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        form button:hover {
+            background: #e63a30;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="send-review.html">Send Review</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <h1>Submit Your Critique</h1>
+            <form action="kimenteria92@gmail.com" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="category">Category:</label>
+                <select id="category" name="category" required>
+                    <option value="">Select a category</option>
+                    <option value="movie">Movie</option>
+                    <option value="book">Book</option>
+                    <option value="art">Art</option>
+                </select>
+
+                <label for="title">Title of Work:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="review">Your Critique:</label>
+                <textarea id="review" name="review" required placeholder="Delve into the shadows..."></textarea>
+
+                <button type="submit">Submit Critique</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kritikomento. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href = "style.css">
+    <titl4>Kritikomento - Books</title>
+    <style>
+        body {
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #e0e0e0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px;
+        }
+        .book-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .book-card {
+            background: #1a1a1a;
+            border-radius: 5px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+        }
+        .book-card:hover {
+            transform: translateY(-5px);
+        }
+        .book-card img {
+            width: 100%;
+            height:500px;
+            object-fit: cover;
+        }
+        .book-info {
+            padding: 15px;
+        }
+        .book-info h3 {
+            margin-top: 0;
+        }
+        .author {
+            color: #ff4136;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Noir</span> Critique</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="current"><a href="categories.html">Categories</a></li>
+                    <li><a href="send-review.html">Send Review</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <h1>Book Reviews</h1>
+            <div class="book-grid">
+                <div class="book-card">
+                    <img src="img/susan_book.jpeg" alt="Book 1">
+                    <div class= "book-info">
+                     <h3>Ang mga  Kaibigan ni Mama Susan
+                    </h3>
+                        <p class="author">By Bob Ong</p>
+                        <p>The story follows Gilberto "Galo" P. Manansala, 
+                            a college student in Manila, as he writes journal entries for a class. 
+                            Through these entries, he details how ordinary situations spiral into terrifying events, 
+                            leading him to uncover unsettling mysteries. 
+                            As he becomes more entangled in these horrors, Galo finds himself unable 
+                            to escape their grip.
+                        <br> Though this is the slowest horror, it was one of the great plot twist ever.
+                        </p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/lumayo (books).jpg" alt="Book 2">
+                    <div class="book-info">
+                        <h3>Lumayo Ka Nga Sa Akin</h3>
+                        <p class="author">By Bob Ong</p>
+                        <p>
+                            "Lumayo Ka Nga Sa Akin" by Bob Ong is a humorous and reflective novel about love, heartbreak, and self-discovery. 
+                            It follows a young man navigating the aftermath of a failed relationship, as he confronts his own 
+                            flaws and attempts to move on... which is one of the segment, there is a horror based on the 
+                            longest horror film anthology, and most abused cliche romance known as "kabit."
+                        <br> A critique and commentary about the cliches we remember, it was a great satire.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/si.jpg" alt="Book">
+                    <div class="book-info">
+                        <h3>Si</h3>
+                        <p class="author">By Bob Ong</p>
+                        <p>"Si" by Bob Ong explores love, relationships, and self-discovery through 
+                            the main character's journey. Known for his humor and social 
+                            commentary, Ong offers insights into Filipino 
+                            culture while reflecting on the complexities of personal 
+                            growth and emotions.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/jiji.jpg" alt="Book">
+                    <div class="book-info">
+                        <h3>He's into Her</h3>
+                        <p class="author">By Maxinejiji</p>
+                        <p> A spunky teenage girl from Mindoro, moves 
+                            to Manila to live with her estranged father and study in a 
+                            prestigious school.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/arielle.jpg" alt="Book 1">
+                    <div class= "book-info">
+                     <h3>PWarrior Clan 1: Paladin</h3>
+                        <p class="author">By Arielle</p>
+                        <p>"Warrior Clan 1: Paladin" by Arielle is a romance novel that blends over-the-top action, 
+                            cringiest westerner adventure and fantasy roled by pure Filipino with different 
+                            ancestors, and yeah... controversially missed opportunity commentary. 
+                            <br> It follows a noble and heroic paladin as he faces both external battles and 
+                            emotional struggles, navigating a passionate love story while growing 
+                            through personal challenges.
+                        <br> Despite most exaggrated story, it was part of the "it's-so-bad, it's-good"
+                     readable novel... if it weren't for forced commentary</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/1892.jpg" alt="Book 2">
+                    <div class="book-info">
+                        <h3>I Love You Since 1892</h3>
+                        <p class="author">By Undeniably Gorgeous or Binibining Mia</p>
+                        <p>A historical fiction that tells an epic adventure of a modern girl 
+                            who was brought back in time, to experience an old fashioned 
+                            life and love in 1892.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/noli.jpg" alt="Book">
+                    <div class="book-info">
+                        <h3>Noli M Tangere</h3>
+                        <p class="author">By Jose Rizal</p>
+                        <p>"Noli Me Tangere" by José Rizal follows Juan Crisóstomo Ibarra, a young man who 
+                            returns to the Philippines to find his country oppressed 
+                            by Spanish rule. The novel exposes social injustices and 
+                            corruption, inspiring a call for reform and playing a key 
+                            role in the Philippine Revolution..
+                        <br> We already this story, this is one of the Philippine gem of literature for the 
+                    youngster in the 21st century.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/balagtas.jpg" alt="Book">
+                    <div class="book-info">
+                        <h3>Florante at Laura</h3>
+                        <p class="author">By Francisco Balagtas</p>
+                        <p> "Florante at Laura" by Francisco Balagtas is a Filipino epic 
+                            about Prince Florante's love for Princess Laura, 
+                            his betrayal by friend Adolfo, and his journey to overcome trials. 
+                            The story explores themes of love, betrayal, and honor, 
+                            and is a classic of Philippine literature.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/adarna.jpg" alt="Book">
+                    <div class="book-info">
+                        <h3>Ibong Adarna</h3>
+                        <p class="author">By "Jose dela Cruz"</p>
+                        <p>"Ibong Adarna" is a Filipino epic about three princes who 
+                            search for a magical bird to cure their father’s illness. 
+                            The story explores themes of loyalty, sacrifice, and redemption.</p>
+                    </div>
+                </div>
+                <div class="book-card">
+                    <img src="img/ventrecanard.jpg" alt="Book">
+                    <div class="book-info">
+                        <h3>Taste of Sky</h3>
+                        <p class="author">By ventrecanard</p>
+                        <p> Most women fall for engineers, doctors, lawyers, 
+                            architects and businessmen but in my case? I fell in love 
+                            with an astronaut.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Kritikomento. All rights reserved.</p>
+    </footer>
+</body>
+</html>
